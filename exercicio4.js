@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // 4.1 Use variáveis para criar frases
 let nome = "Gabriel";
 let idade = 19;
@@ -20,3 +21,19 @@ let biografiaCompleta = `
     adora ${hobbies.join(", ")}.
 `;
 console.log(biografiaCompleta);
+=======
+let limite = parseInt(prompt("Escolha um número positivo qualquer: "))
+
+function listarPares(limite) {
+    for (let i = 0; i <= limite; i++) {
+        if ((i % 2) == 0) {
+            console.log(i)
+        }
+    }
+}
+if (!isNaN(limite) && limite >= 0) {
+    listarPares(limite);
+} else {
+    console.log("Insira um valor válido.")
+}
+>>>>>>> second-repo/main
